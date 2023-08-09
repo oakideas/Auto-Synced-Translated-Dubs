@@ -20,7 +20,7 @@ from Scripts.utils import parseBool
 # Import built in modules
 import re
 import copy
-import winsound
+# import winsound
 
 # Import other modules
 import ffprobe
@@ -298,6 +298,6 @@ for langNum, langData in batchSettings.items():
     # Process current fallback language
     process_language(langData, processedCount, totalLanguages)
 
-# Play a system sound to indicate completion
-sound_name = winsound.MB_ICONASTERISK  # represents the 'Asterisk' system sound
-winsound.MessageBeep(sound_name)  # Play the system sound
+# # Play a system sound to indicate completion
+# sound_name = winsound.MB_ICONASTERISK  # represents the 'Asterisk' system sound
+# winsound.MessageBeep(sound_name)  # Play the system sound

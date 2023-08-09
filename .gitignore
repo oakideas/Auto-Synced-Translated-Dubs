@@ -1,0 +1,7 @@
+client_secrets.json
+.idea
+token.pickle
+util/*
+subtitles.srt
+video.mp4
+Scripts/*
